@@ -1,0 +1,103 @@
+/* MAIN PAGE RESPONSIVE */
+@media only screen and  (max-width: 1350px) {
+    .card {
+        height: 560px;
+        width: 300px;
+    }
+    .btn {
+        margin-top: 40px;
+    }
+    .card-btn a, .card-btn3 a, .card-btn4 a {
+        padding: 15px 20px;
+        font-size: 20px;
+    }
+    .predlog {
+        font-size: 30px;
+        padding: 10px;
+    }
+    .saznaj-vise {
+        padding: 50px 75px;
+        margin: 50px 125px 0px 125px;
+    }
+    .saznaj-vise p {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .card {
+        height: 525px;
+    }
+    .predlog {
+        font-size: 25px;
+    }
+    .glavna-slika {
+        margin: 15px 75px 0px 75px;
+    }
+}
+@media only screen and (max-width: 985px) {
+    .card {
+        height: 540px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-img img {
+        height: 350px;
+    }
+    .predlazemo {
+        margin: 0px 125px 0px 125px
+    }
+    .card {
+        height: auto;
+        width: 70%;
+        height: 600px;
+        margin-top: 50px;
+    }
+    .card-btn a, .card-btn3 a, .card-btn4 a {
+        padding: 20px 25px;
+        font-size: 25px;
+        text-align: right;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    .card-btn , .card-btn3, .card-btn4 {
+        text-align: right;
+    }
+    .predlog {
+        font-size: 35px;
+    }
+    /* footer responsive */
+    .footer-right input {
+        font-size: 15px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .footer-left i {
+        font-size: 30px;
+    }
+    .ja p {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    
+    .saznaj-vise {
+        margin: 50px 100px 0px 100px;
+    }
+    .card {
+        width: 450px;
+        height: 650px;
+    }
+    .card-btn , .card-btn3, .card-btn4 {
+        margin-top: 50px;
+    }
+    .nav a {
+        padding: 0px 15px;
+    }
+}

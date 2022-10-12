@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="header icon" href="images/logo.jpeg">
+    <link rel="stylesheet" href="poruci.css">
+    <link rel="stylesheet" href="responsive3.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fauna+One&display=swap" rel="stylesheet" />
+    <!--/FONTS-->
+    <script src="https://kit.fontawesome.com/0c88aae72d.js" crossorigin="anonymous"></script>
+    <title>Tea Shop - Porudzbina</title>
+</head>
+<body>
+
+    <!-- NAVIGATION-->
+    <div class="nav">
+        <div class="nav-items">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.jpeg" alt="logoSajta height="80px" width="80px""></a>
+            </div>
+            <div class="nav-links">
+                <li>
+                    <a href="index.html">Home</a>
+                    <a href="proizvodi.html">Proizvodi</a>
+                    <a href="cajevi.html">O čajevima</a>
+                    <a href="poruci.html">Poruči</a>
+                </li>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+        <h1 style="text-align: center; margin-bottom: 30px;">Vaša porudzbina</h1>
+        <!--FORM-->
+        <form action="">
+            <div class="podaci">
+                <label>Ime</label>
+                <input type="text" id="ime">
+                <label>Email</label>
+                <input type="text" name="" id="email">
+            </div>
+            <div class="ulica">
+                <label>Ulica</label>
+                <input type="text" id="ulica">
+            </div>
+            <div class="proizvod">
+                <select name="" id="sekcija">
+                        <option value="" selected>izaberite proizvod</option>
+                        <optgroup label="Japanski cajevi">
+                            <option value="">Gyokuro Yame zeleni caj</option>
+                            <option value="">Kukicha Supreme zeleni caj</option>
+                            <option value="">Sencha zeleni caj</option>
+                            <option value="">Gyokuro Yame zeleni caj</option>
+                        </optgroup>
+                        <optgroup label="Kineski cajevi">
+                            <option value="">Bi Luo Chun zeleni caj</option>
+                            <option value="">Buddha Mountain zeleni caj</option>
+                            <option value="">Emerald Pearls zeleni caj</option>
+                            <option value="">Jade Sprout zeleni caj</option>
+                        </optgroup>
+                        <optgroup label="Crni cajevi">
+                            <option value="">Lapsang Souchong crni caj</option>
+                            <option value="">Assam Golden Tips crni caj</option>
+                            <option value="">Masala Chai crni caj</option>
+                            <option value="">Keemun crni caj</option>
+                        </optgroup>
+                </select>
+            </div>
+            <div class="tekst">
+                <h2>Ostavite komentar</h2>
+                <textarea name="" id="" cols="40" rows="12" placeholder="Ostavite komentar..."></textarea>
+            </div>
+            <div class="dugme">
+                <a href="#">Pošalji</a>
+            </div>
+        </form>
+    </div>
+
+    <!--FOOTER-->
+
+    <div class="footer">
+        <div class="footer-right">
+            <h1 style="color: #fff;">Kontaktirajte nas</h1>
+            <input type="text" placeholder="Posaljite nam poruku...">
+            <a href="#input" class="send-btn">Pošalji</a>
+        </div>
+        <div class="footer-left">
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" style="padding: 10px 12px;"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" ></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" style="padding: 10px;"></i></a>
+        </div>
+    </div>
+    <div class="ja">
+        <p>Sajt radio: Petar Djordjevic E-34</p>
+    </div>
+</body>
+</html>

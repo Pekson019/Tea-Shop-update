@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #ECF0F1;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.hero {
+    height: 100vh;
+    background-color: #ECF0F1;
+}
+
+/* NAV CSS */
+
+.nav {
+    padding: 25px;
+    background-color: #1C2833;
+}
+.nav-items {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img {
+    border-radius: 50%;
+    transition: all;
+}
+.logo img:hover {
+    border-radius: 30%;
+    transition: ease-in 0.3s;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 25px;
+    transition: all;
+}
+.nav-links a:hover {
+    color: #808B96;
+    transition: ease 0.2s ;
+    background-color: #2E86C1;
+    padding: 15px 25px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* MAIN CONTENT CSS */
+.main-img {
+    margin-top: 10px;
+}
+.main-img img {
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+}
+/* CONTAINER */
+
+.container {
+    margin: 50px 250px 0px 250px;
+}
+.glavni-tekst {
+    margin-top: 50px;
+}
+p {
+    font-size: 20px;
+    background-color: #E5E7E9;
+}
+hr {
+    height: 2px;
+    background-color: #E5E7E9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* BLACK TEA CSS */
+.cajevi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.cajevi p {
+    margin-left: 25px;
+    margin-bottom: auto;
+}
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1C2833;
+    height: 200px;
+    margin-top: 50px;
+}
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.footer-right input {
+    outline: none;
+    border-radius: 15px;
+    width: 400px;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.send-btn {
+    background-color: #2E86C1;
+    color: #fff;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 10px;
+    transition: all;
+}
+.send-btn:hover {
+    padding: 10px 15px;
+    transition: ease-out 0.2s;
+    background-color: #5DADE2;
+}
+.footer-left a {
+    padding: 0px 10px;
+}
+.footer-left i {
+    color: #fff;
+    font-size: 40px;
+    background-color: #2E86C1;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: all;
+}
+.footer-left i:hover {
+    background-color: #5DADE2;
+    transition: ease-in 0.3s;
+}
+.ja {
+    text-align: center;
+    background-color: #17202A;
+    color: #fff;
+}
+.ja font {
+    font-size: 30px;
+}

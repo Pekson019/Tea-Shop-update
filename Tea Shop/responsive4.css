@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1500px) {
+    .container {
+        margin: 50px 100px 0px 100px;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .container {
+        margin: 50px 50px 0px 50px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+    .cajevi img {
+        margin-top: 20px;
+    }
+    .cajevi p {
+        margin-top: 25px;
+        text-align: justify;
+    }
+}

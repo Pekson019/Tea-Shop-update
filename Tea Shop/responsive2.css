@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1200px) {
+    /* card responsive */
+    .cajevi {
+        font-size: 25px;
+        padding: 10px;
+    }
+    .card {
+        height: 560px;
+    }
+    .card-text p {
+        font-size: 20px;
+    }
+    .card-btn a, .card-btn2 a, .card-btn3 a {
+        padding: 10px;
+        font-size: 20px;
+    }
+    .card-btn  {
+        margin-top: 30px;
+    }
+    /* table responsive */
+    table td, a{
+        font-size: 20px;
+    }
+    /* footer responsive */
+    .footer-right input {
+        font-size: 15px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .footer-left i {
+        font-size: 30px;
+    }
+    .ja p {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 925px) {
+    .cajevi {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .card-btn a, .card-btn2 a, .card-btn3 a {
+        padding: 15px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top {
+        margin-top: 20px;
+    }
+    .card {
+        height: 700px;
+        width: 450px;
+    }
+}

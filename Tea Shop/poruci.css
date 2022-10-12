@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    outline: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.hero {
+    height: 100vh;
+    background-color: #ECF0F1;
+}
+
+/* NAV CSS */
+
+.nav {
+    padding: 25px;
+    background-color: #1C2833;
+}
+.nav-items {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img {
+    border-radius: 50%;
+    transition: all;
+}
+.logo img:hover {
+    border-radius: 30%;
+    transition: ease-in 0.3s;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 25px;
+    transition: all;
+}
+.nav-links a:hover {
+    color: #808B96;
+    transition: ease 0.2s ;
+    background-color: #2E86C1;
+    padding: 15px 25px;
+    color: #fff;
+    border-radius: 10px;
+}
+/* CONTAINER */
+.container {
+    margin: 25px 300px 0px 300px;
+    background-color: #ECF0F1;
+    padding: 30px 50px;
+    height: fit-content;
+    border: 2px solid #1C2833;
+    background-color: #1C2833;
+    color: #2E86C1;
+    border-radius: 10px;
+}
+
+/* FORM CSS */
+form {
+    font-size: 20px;
+}
+.podaci {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+#ime, #email {
+    width: 50%;
+    margin: 0px 20px;
+    padding: 5px 10px;
+}
+.ulica {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+}
+#ulica {
+    width: 100%;
+}
+.proizvod {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#sekcija {
+    width: 100%;
+    padding: 5px;
+}
+input {
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid #1C2833;
+}
+input, textarea, select {
+    border-radius: 10px;
+}
+select {
+    border: 2px solid #1C2833;
+}
+optgroup, option, select, textarea {
+    font-size: 20px;
+}
+.tekst {
+    padding: 20px;
+    width: 100%;
+    font-size: 20px;
+}
+.tekst h2 {
+    margin-bottom: 15px;
+}
+.tekst textarea {
+    padding: 10px;
+}
+.dugme {
+    text-align: right;
+}
+.dugme a {
+    background-color: #2E86C1;
+    padding: 10px 30px;
+    border: 2px solid #1C2833;
+    color: #1C2833;
+    border-radius: 10px;
+    transition: all;                           
+}
+.dugme a:hover {
+    transition: ease-in 0.2s;
+    background-color: #5DADE2;
+    padding: 15px 40px;
+}
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1C2833;
+    height: 200px;
+    margin-top: 50px;
+}
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.footer-right input {
+    outline: none;
+    border-radius: 15px;
+    width: 400px;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.send-btn {
+    background-color: #2E86C1;
+    color: #fff;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 10px;
+    transition: all;
+}
+.send-btn:hover {
+    padding: 10px 15px;
+    transition: ease-out 0.2s;
+    background-color: #5DADE2;
+}
+.footer-left a {
+    padding: 0px 10px;
+}
+.footer-left i {
+    color: #fff;
+    font-size: 40px;
+    background-color: #2E86C1;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: all;
+}
+.footer-left i:hover {
+    background-color: #5DADE2;
+    transition: ease-in 0.3s;
+}
+.ja {
+    text-align: center;
+    background-color: #17202A;
+    color: #fff;
+}
+.ja p {
+    font-size: 30px;
+}

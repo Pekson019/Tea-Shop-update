@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #ECF0F1;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.hero {
+    height: 100vh;
+    background-color: #ECF0F1;
+}
+
+/* NAV CSS */
+
+.nav {
+    padding: 25px;
+    background-color: #1C2833;
+}
+.nav-items {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img {
+    border-radius: 50%;
+    transition: all;
+}
+.logo img:hover {
+    border-radius: 30%;
+    transition: ease-in 0.3s;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 25px;
+    transition: all;
+}
+.nav-links a:hover {
+    color: #808B96;
+    transition: ease 0.2s ;
+    background-color: #2E86C1;
+    padding: 15px 25px;
+    color: #fff;
+    border-radius: 10px;
+}
+/* TABLE */
+
+table, th, td{
+    margin-top: 50px;
+    border: 2px solid #17202A;
+    border-collapse: collapse;
+    padding: 10px 30px;
+    background-color: #1C2833;
+    color: #fff;
+}
+.header-linkovi a {
+    color: #2E86C1;
+    transition: all;
+    font-size: 35px;
+}
+.header-linkovi a:hover {
+    transition: ease-in 0.2s;
+    color: #48C9B0;
+}
+/* PRODUCT ITEMS */
+.text {
+    text-align: center;
+    margin-top: 50px; 
+    color: #fff; 
+    font-size: 40px;
+    background-color: #17202A;
+    padding: 15px;
+    border-radius: 5px;
+}
+.cajevi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    padding: 30px 100px;
+}
+.gore {
+    margin-top: -25px;
+}
+.card {
+    background-color: #17202A;
+    height: 650px;
+    width: 350px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 15px;
+}
+.card-img img {
+    width: 100%;
+    background-size: cover;
+    border-bottom: 2px solid #1C2833;
+    border-radius: 15px;
+}
+.card-text {
+    color: #fff;
+    text-align: left;
+    padding: 10px 0px 0px 25px;
+}
+.card-btn {
+    text-align: right;
+    margin-top: 35px;
+}
+.card-btn a {
+    background-color: #2E86C1;
+    color: #1C2833;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    transition: all;
+}
+.card-btn2 {
+    margin-top: 35px;
+    text-align: right;
+}
+.card-btn2 a {
+    background-color: #2E86C1;
+    color: #1C2833;
+    padding: 15px;
+    border-top-left-radius: 15px;
+}
+.card-btn3 {
+    margin-top: 30px;
+    text-align: right;
+}
+.card-btn3 a {
+    background-color: #2E86C1;
+    color: #1C2833;
+    padding: 15px;
+    border-top-left-radius: 15px;
+}
+.card-btn a:hover, .card-btn2 a:hover, .card-btn3 a:hover  {
+    padding: 20px 20px;
+    border-top-left-radius: 20px;
+    transition: ease-in-out 0.2s;
+    background-color: #2E86C1;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1C2833;
+    height: 200px;
+    margin-top: 50px;
+}
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.footer-right input {
+    outline: none;
+    border-radius: 15px;
+    width: 400px;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.send-btn {
+    background-color: #2E86C1;
+    color: #fff;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 10px;
+    transition: all;
+}
+.send-btn:hover {
+    padding: 10px 15px;
+    transition: ease-out 0.2s;
+    background-color: #5DADE2;
+}
+.footer-left a {
+    padding: 0px 10px;
+}
+.footer-left i {
+    color: #fff;
+    font-size: 40px;
+    background-color: #2E86C1;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: all;
+}
+.footer-left i:hover {
+    background-color: #5DADE2;
+    transition: ease-in 0.3s;
+}
+.ja {
+    text-align: center;
+    background-color: #17202A;
+    color: #fff;
+}
+.ja p {
+    font-size: 30px;
+}

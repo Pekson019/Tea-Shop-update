@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #ECF0F1;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.space {
+    height: 15vh;
+}
+
+/* NAV CSS */
+
+.nav {
+    padding: 25px;
+    background-color: #1C2833;
+}
+.nav-items {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img {
+    border-radius: 50%;
+    transition: all;
+}
+.logo img:hover {
+    border-radius: 30%;
+    transition: ease-in 0.3s;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 25px;
+    transition: all;
+}
+.nav-links a:hover {
+    color: #808B96;
+    transition: ease 0.2s ;
+    background-color: #2E86C1;
+    padding: 15px 25px;
+    color: #fff;
+    border-radius: 10px;
+}
+.glavna-slika {
+    margin: 15px 150px 0px 150px;
+    color: #2E86C1;
+}
+.glavna-slika h1 {
+    margin-bottom: 25px;
+}
+.glavna-slika img {
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-color: #17202A;
+    opacity: 90%;
+    border-radius: 15px;
+    border: 2px solid #17202A;
+}
+/*RECOMMENDATION CSS */
+.predlog {
+    text-align: center;
+    margin-top: 100px; 
+    color: #fff; 
+    font-size: 40px;
+    background-color: #17202A;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+.predlazemo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.card {
+    background-color: #17202A;
+    height: 670px;
+    width: 400px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 20px;
+}
+.card-img img {
+    width: 100%;
+    background-size: cover;
+    border-bottom: 2px solid #1C2833;
+}
+.card-text {
+    color: #fff;
+    text-align: left;
+    padding: 10px 0px 0px 25px;
+}
+.card-btn {
+    text-align: right;
+    margin-top: 40px;
+}
+.card-btn a {
+    background-color: #2E86C1;
+    color: #1C2833;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    transition: all;
+}
+.card-btn a:hover , .card-btn3 a:hover, .card-btn4 a:hover {
+    padding: 20px 20px;
+    border-top-left-radius: 20px;
+    transition: ease-in-out 0.2s;
+    background-color: #2E86C1;
+}
+.card-btn3 {
+    margin-top: 20px;
+    text-align: right;
+}
+.card-btn3 a {
+    background-color: #2E86C1;
+    color: #1C2833;
+    padding: 15px;
+    border-top-left-radius: 15px;
+}
+.card-btn4 {
+    margin-top: 35px;
+    text-align: right;
+}
+.card-btn4 a {
+    background-color: #2E86C1;
+    color: #1C2833;
+    padding: 15px;
+    border-top-left-radius: 15px;
+}
+
+/* LEARN MORE CSS */
+.saznaj-vise {
+    background-color: #1C2833;
+    color: #2E86C1;
+    padding: 75px 150px;
+    margin: 50px 250px 0px 250px;
+    border-radius: 25px;
+}
+.saznaj-vise h1 {
+    text-align: center;
+    font-size: 35px;
+}
+.saznaj-vise p {
+    text-align: justify;
+    font-size: 25px;
+}
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1C2833;
+    height: 200px;
+    margin-top: 50px;
+}
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.footer-right input {
+    outline: none;
+    border-radius: 15px;
+    width: 400px;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.send-btn {
+    background-color: #2E86C1;
+    color: #fff;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 10px;
+    transition: all;
+}
+.send-btn:hover {
+    padding: 10px 15px;
+    transition: ease-out 0.2s;
+    background-color: #5DADE2;
+}
+.footer-left a {
+    padding: 0px 10px;
+}
+.footer-left i {
+    color: #fff;
+    font-size: 40px;
+    background-color: #2E86C1;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: all;
+}
+.footer-left i:hover {
+    background-color: #5DADE2;
+    transition: ease-in 0.3s;
+}
+.ja {
+    text-align: center;
+    background-color: #17202A;
+    color: #fff;
+}
+.ja p {
+    font-size: 30px;
+}

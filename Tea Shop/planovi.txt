@@ -1,0 +1,30 @@
+planovi za sajt
+
+navigacija
+3 stranice (home, proizvodi i o nama)
+ 
+ Home page {
+    navigacija
+    predlaganje
+    zanimljivost
+    footer
+ }
+
+ proizvodi {
+    lista svih stvari za prodaju
+ }
+
+ o nama {
+    opisati malo sajt cime se baci sta nudi...
+    nabrojati vrstu cajeva i opisati ih
+ }
+
+ boje {
+   #1C2833 neka crna
+   #17202A isto neka crna
+   #48C9B0 svetlo zelena
+ }
+
+ Kukicha Supreme zeleni caj
+
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
